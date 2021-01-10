@@ -136,8 +136,32 @@ li {
 .tour__list_item_text {
   width: 48%;
 }
+.price__wrap_table {
+  margin-top: 5rem;
+}
 .table {
   text-align: center;
   width: 100%;
   border-spacing: 20px;
+}
+.table__header {
+  text-align: center;
+  font-size: 2rem;
+}
+.contact__wrap {
+  margin: 5rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contact__list {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: #6c74e7 3px solid;
+  padding-bottom: 2rem;
+}
+.bottom__box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
 }
