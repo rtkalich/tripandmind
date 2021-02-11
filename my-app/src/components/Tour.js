@@ -1,8 +1,8 @@
 import React from 'react'
-import iceland from '../i/iceland.png'
-import firstTour from '../i/first_tour.jpg'
-import freezyCave from '../i/freezy_cave.jpg'
-import waterfall from '../i/waterfall.jpg'
+import iceland from '../assets/iceland.png'
+import firstTour from '../assets/first_tour.jpg'
+import freezyCave from '../assets/freezy_cave.jpg'
+import waterfall from '../assets/waterfall.jpg'
 
 function Tour(){
     return(

@@ -1,8 +1,8 @@
 import React from 'react'
 import github from '../i/github.png'
-import dribbble from '../i/dribbble.png'
-import linkedin from '../i/linkedin.png'
-import facebook from '../i/facebook.png'
+import dribbble from '../assets/dribbble.png'
+import linkedin from '../assets/linkedin.png'
+import facebook from '../assets/facebook.png'
 
 function Main(){
     return (
