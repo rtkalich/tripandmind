@@ -6,7 +6,8 @@ import waterfall from '../i/waterfall.jpg'
 
 function Tour(){
     return(
-        <div class="container">
+        <div className='tour__wrap'>
+            <div class="container">
             <div class="tour__wrap_box">
                 <img src={iceland} alt="" class="wrap__img"/>
                 <div class="tours__list">
@@ -34,6 +35,8 @@ function Tour(){
                 </div>
             </div>
         </div>
+        </div>
+        
     )
 }
 export default Tour

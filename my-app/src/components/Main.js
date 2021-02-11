@@ -6,14 +6,15 @@ import facebook from '../i/facebook.png'
 
 function Main(){
     return (
-        <div class="container">
+        <div className='main__wrap'>
+            <div class="container">
             <header>
                 <div class="header__box">
                     <div class="header__box_item">
                         <span class="logo"><a href="index.html">Trip&Mind</a></span>
                     </div>
                     <div class="header__box_item">
-                        <ul class="menu__list">
+                        <ul class="menu__list ">
                             <li class="menu__list_item">
                                 <a href="#tour__wrap">Все туры</a>
                             </li>
@@ -39,7 +40,10 @@ function Main(){
                 </div>
             </div>
         </div>
+        </div>
+        
     )
 }
 
 export default Main
+

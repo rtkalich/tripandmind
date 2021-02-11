@@ -2,7 +2,8 @@ import React from 'react'
 
 function Price() {
     return(
-        <div class="container">
+        <div className='price__wrap'>
+            <div class="container">
             <div class="price__wrap_table">
                 <h3 class="table__header">Наш прайс-лист</h3>
                 <table class="table"  >
@@ -29,6 +30,8 @@ function Price() {
                 </table>
             </div>
         </div>
+        </div>
+        
     )    
 }
 export default Price

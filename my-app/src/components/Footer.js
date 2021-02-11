@@ -2,12 +2,15 @@ import React from 'react'
 
 function Footer() {
     return(
-        <div class="container">
+        <footer>
+            <div class="container">
             <div class="bottom__box">
-                <p>Все права защищены&copy;</p>
                 <h3>Автор: Ткалич Роман</h3>
+                <p>Все права защищены&copy;</p>
             </div>
         </div>
+        </footer>
+        
     )
     
 }
