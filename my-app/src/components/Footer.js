@@ -1,12 +1,13 @@
 import React from 'react'
+import { author, privacy} from '../constants/General'
 
 function Footer() {
     return(
         <footer>
             <div class="container">
             <div class="bottom__box">
-                <h3>Автор: Ткалич Роман</h3>
-                <p>Все права защищены&copy;</p>
+                <h3>{author}</h3>
+                <p>{privacy}&copy;</p>
             </div>
         </div>
         </footer>

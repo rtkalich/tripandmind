@@ -3,6 +3,11 @@ import iceland from '../assets/iceland.png'
 import firstTour from '../assets/first_tour.jpg'
 import freezyCave from '../assets/freezy_cave.jpg'
 import waterfall from '../assets/waterfall.jpg'
+import {northernLightTour} from '../constants/General'
+import {descriptionTour} from '../constants/General'
+import {iceCaves} from '../constants/General'
+import {waterfallOfIceland} from '../constants/General'
+
 
 function Tour(){
     return(
@@ -14,22 +19,22 @@ function Tour(){
                     <div class="tours__list_item ">
                         <img class="tour__list_item_img" src={firstTour} alt="Northern Lights"/>
                         <div class="tour__list_item_text">
-                            <h3>В погоне за северным сиянием</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eligendi culpa deserunt? Fugiat minus doloribus nemo sequi dolores magni laboriosam nesciunt beatae expedita, doloremque quia sapiente pariatur veritatis porro fugit omnis debitis suscipit. Rem sequi impedit exercitationem velit, necessitatibus eaque quam doloremque eos minima corrupti a quisquam nesciunt repellendus sed!</p>
+                            <h3>{northernLightTour}</h3>
+                            <p>{descriptionTour}</p>
                         </div>
                     </div>
                     <div class="tours__list_item ">
                         <img class="tour__list_item_img" src={freezyCave} alt="cave"/>
                         <div class="tour__list_item_text">
-                            <h3>Исследование ледяных пещер</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eligendi culpa deserunt? Fugiat minus doloribus nemo sequi dolores magni laboriosam nesciunt beatae expedita, doloremque quia sapiente pariatur veritatis porro fugit omnis debitis suscipit. Rem sequi impedit exercitationem velit, necessitatibus eaque quam doloremque eos minima corrupti a quisquam nesciunt repellendus sed!</p>
+                            <h3>{iceCaves}</h3>
+                            <p>{descriptionTour}</p>
                         </div>
                     </div>
                     <div class="tours__list_item ">
                         <img class="tour__list_item_img" src={waterfall} alt="waterfall"/>
                         <div class="tour__list_item_text">
-                            <h3>Водопады Исландии</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eligendi culpa deserunt? Fugiat minus doloribus nemo sequi dolores magni laboriosam nesciunt beatae expedita, doloremque quia sapiente pariatur veritatis porro fugit omnis debitis suscipit. Rem sequi impedit exercitationem velit, necessitatibus eaque quam doloremque eos minima corrupti a quisquam nesciunt repellendus sed!</p>
+                            <h3>{waterfallOfIceland}</h3>
+                            <p>{descriptionTour}</p>
                         </div>
                     </div>
                 </div>

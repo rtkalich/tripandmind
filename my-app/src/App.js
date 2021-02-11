@@ -5,7 +5,6 @@ import Price from './components/Price';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-
 function App() {
     return(
         <div>

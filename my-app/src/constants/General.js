@@ -1,0 +1,24 @@
+export const northernLightTour = 'В погоне за северным сиянием';
+export const projectName = 'Trip&Mind';
+export const allTour = 'Все туры';
+export const cost = 'стоимость';
+export const contact = 'контакты';
+export const contentHeader = 'Открой для себя страну льда и пламени';
+export const contentParagraph = 'Авторские туры по завораживающей Исландии';
+export const contactBtn = 'Оставить заявку'
+export const descriptionTour = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eligendi culpa deserunt? Fugiat minus doloribus nemo sequi dolores magni laboriosam nesciunt beatae expedita, doloremque quia sapiente pariatur veritatis porro fugit omnis debitis suscipit. Rem sequi impedit exercitationem velit, necessitatibus eaque quam doloremque eos minima corrupti a quisquam nesciunt repellendus sed!'
+export const iceCaves = 'Исследование ледяных пещер'
+export const waterfallOfIceland = 'Водопады Исландии'
+export const ourPrice = 'Наш прайс-лист'
+export const nameOfTour = 'Название тура'
+export const description = 'Описание тура'
+export const price = 'Стоимость тура'
+export const minDesc = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, enim.'
+export const priceTourFirst = '1500 euro'
+export const priceTourSecond = '1200 euro'
+export const priceTourThird = '1000 euro'
+export const mail = 'tkalichroman90@gmail.com'
+export const tel = '+380993571333';
+export const author = 'Автор: Ткалич Роман';
+export const privacy = 'Все права защищены';
+

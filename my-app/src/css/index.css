@@ -18,13 +18,12 @@ li {
 }
 /* -------------------main-wrap----------------------------------------------------- */
 .main__wrap {
-  background: url(../i/bg-main.jpg) no-repeat;
+  background: url(../assets/bg-main.jpg) no-repeat;
   padding-top: 2rem;
   height: 100vh;
   margin: auto;
 }
-.header__box {
-}
+
 .header__box_item {
   text-align: center;
   padding-bottom: 1rem;

@@ -1,31 +1,35 @@
 import React from 'react'
+import {description, iceCaves, minDesc,
+ nameOfTour, northernLightTour, ourPrice, 
+ price, priceTourFirst, priceTourSecond, waterfallOfIceland, priceTourThird } from '../constants/General'
+
 
 function Price() {
     return(
         <div className='price__wrap'>
             <div class="container">
             <div class="price__wrap_table">
-                <h3 class="table__header">Наш прайс-лист</h3>
+                <h3 class="table__header">{ourPrice}</h3>
                 <table class="table"  >
                     <tr>
-                        <th>Название тура</th>
-                        <th>Описание</th>
-                        <th>Стоимость тура</th>
+                        <th>{nameOfTour}</th>
+                        <th>{description}</th>
+                        <th>{price}</th>
                     </tr>
                     <tr>
-                        <td>В погоне за северным сиянием</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, enim.</td>
-                        <td>1500 &#8364;</td>
+                        <td>{northernLightTour}</td>
+                        <td>{minDesc}</td>
+                        <td>{priceTourFirst}</td>
                     </tr>
                     <tr>
-                        <td>Исследование ледяных пещер</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, enim.</td>
-                        <td>1200 &#8364;</td>
+                        <td>{iceCaves}</td>
+                        <td>{minDesc}</td>
+                        <td>{priceTourSecond}</td>
                     </tr>
                     <tr>
-                        <td>Водопады Исландии</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, enim.</td>
-                        <td>1000 &#8364;</td>
+                        <td>{waterfallOfIceland}</td>
+                        <td>{minDesc}</td>
+                        <td>{priceTourThird}</td>
                     </tr>
                 </table>
             </div>
