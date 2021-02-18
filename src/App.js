@@ -4,6 +4,7 @@ import Tour from './components/Tour';
 import Price from './components/Price';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Biography from './components/Biography'
 
 function App() {
     return(
@@ -12,6 +13,7 @@ function App() {
             <Tour/>
             <Price/>
             <Contact/>
+            <Biography/>
             <Footer/>
         </div>
     )
