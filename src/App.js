@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Biography from './components/Biography'
 
+
 function App() {
     return(
         <div>
